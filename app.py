@@ -56,5 +56,3 @@ selected_file = st.selectbox("Sélectionnez une prédiction enregistrée", [""] 
 if selected_file:
     image = Image.open(os.path.join(save_dir, selected_file))
     st.image(image, caption=selected_file)
-
-st.caption("Développé par [Votre nom](https://votresite.com)")
